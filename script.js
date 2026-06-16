@@ -2,7 +2,8 @@
 // CONFIGURATION - Gets from config.js
 // =====================================================
 const DEFAULT_WISP = window.SITE_CONFIG?.defaultWisp ?? "wss://call.doxywave.dpdns.org/wisp/";
-const WISP_SERVERS = [{ name: "GLSeries", url: "wss://glseries.net/wisp/" }];
+const WISP_SERVERS = [{ name: "GLSeries", url: "wss://call.doxywave.dpdns.org/wisp/" }];
+
 
 // Initialize default proxy server if not set
 if (!localStorage.getItem("proxServer")) {
